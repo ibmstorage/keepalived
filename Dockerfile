@@ -14,7 +14,7 @@ RUN chmod +x init.sh
 CMD ["./init.sh"]
 
 # Build specific labels
-LABEL maintainer="Ken Dreyer <kdreyer@redhat.com>"
+LABEL maintainer="Guillaume Abrioux <gabrioux@redhat.com>"
 LABEL com.redhat.component="keepalived-container"
 LABEL version=2.1.5
 LABEL name="keepalived"
