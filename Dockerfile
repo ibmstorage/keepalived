@@ -1,6 +1,8 @@
 FROM registry.redhat.io/ubi8/ubi-minimal:latest
 
-RUN microdnf install --nodocs \
+# Update the image to get the latest CVE updates
+RUN microdnf update -y \
+ && microdnf install --nodocs \
     bash       \
     curl       \
     iproute    \
