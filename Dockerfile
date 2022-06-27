@@ -1,4 +1,4 @@
-FROM registry.redhat.io/ubi8/ubi-minimal:latest
+FROM registry.redhat.io/ubi9/ubi-minimal:latest
 
 # Update the image to get the latest CVE updates
 RUN microdnf update -y \
@@ -21,6 +21,6 @@ LABEL com.redhat.component="keepalived-container"
 LABEL version=2.1.5
 LABEL name="keepalived"
 LABEL description="Red Hat Ceph Storage keepalived"
-LABEL summary="Provides the keepalived on RHEL 8 for Red Hat Ceph Storage."
-LABEL io.k8s.display-name="Keepalived on RHEL 8"
+LABEL summary="Provides the keepalived on RHEL 9 for Red Hat Ceph Storage."
+LABEL io.k8s.display-name="Keepalived on RHEL 9"
 LABEL io.openshift.tags="rhceph ceph keepalived"
