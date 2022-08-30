@@ -3,10 +3,10 @@ FROM registry.redhat.io/ubi9/ubi-minimal:latest
 # Update the image to get the latest CVE updates
 RUN microdnf update -y \
  && microdnf install --nodocs \
-    bash       \
-    curl       \
-    iproute    \
-    keepalived-2.1.5 \
+    bash         \
+    curl-minimal \
+    iproute      \
+    keepalived-2.2.4 \
  && rm /etc/keepalived/keepalived.conf
 
 COPY /skel /
@@ -18,7 +18,7 @@ CMD ["./init.sh"]
 # Build specific labels
 LABEL maintainer="Guillaume Abrioux <gabrioux@redhat.com>"
 LABEL com.redhat.component="keepalived-container"
-LABEL version=2.1.5
+LABEL version=2.2.4
 LABEL name="keepalived"
 LABEL description="Red Hat Ceph Storage keepalived"
 LABEL summary="Provides the keepalived on RHEL 9 for Red Hat Ceph Storage."
