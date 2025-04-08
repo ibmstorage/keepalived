@@ -3,7 +3,7 @@ FROM almalinux:9
 
 # Update the image to get the latest CVE updates
 RUN dnf update -y \
- && microdnf install -y --nodocs \
+ && dnf install -y --nodocs \
     bash         \
     curl-minimal \
     iproute      \
