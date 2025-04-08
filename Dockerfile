@@ -1,4 +1,4 @@
-FROM registry.access.redhat.io/ubi9/ubi-minimal:latest
+FROM quay.io/centos/centos:stream9
 
 # Update the image to get the latest CVE updates
 RUN microdnf update -y \
