@@ -1,6 +1,10 @@
 # Use a multi-architecture-compatible base image
 FROM debian:bullseye-slim
 
+# Disable interactive prompts and init scripts
+ENV DEBIAN_FRONTEND=noninteractive
+RUN echo '#!/bin/sh\nexit 101' > /usr/sbin/policy-rc.d && chmod +x /usr/sbin/policy-rc.d
+
 # Update the image to get the latest CVE updates
 RUN apt-get update -y \
  && apt-get install -y --no-install-recommends \
@@ -8,8 +12,7 @@ RUN apt-get update -y \
     curl \
     iproute2 \
     keepalived \
-    && rm -rf /var/lib/apt/lists/* \
- && rm /etc/keepalived/keepalived.conf
+    && rm -rf /var/lib/apt/lists/*
 
 COPY /skel /
 
