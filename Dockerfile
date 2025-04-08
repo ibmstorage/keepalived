@@ -1,7 +1,8 @@
-FROM quay.io/centos/centos:stream9
+# Use a multi-architecture-compatible base image
+FROM almalinux:9
 
 # Update the image to get the latest CVE updates
-RUN microdnf update -y \
+RUN dnf update -y \
  && microdnf install -y --nodocs \
     bash         \
     curl-minimal \
