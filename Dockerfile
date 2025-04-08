@@ -1,4 +1,4 @@
-FROM registry.redhat.io/ubi9/ubi-minimal:latest
+FROM registry.access.redhat.io/ubi9/ubi-minimal:latest
 
 # Update the image to get the latest CVE updates
 RUN microdnf update -y \
