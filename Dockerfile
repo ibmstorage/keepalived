@@ -40,7 +40,7 @@
 # LABEL io.k8s.display-name="Keepalived on RHEL 9"
 # LABEL io.openshift.tags="rhceph ceph keepalived"
 
-FROM registry.access.redhat.com/ubi9-minimal
+FROM --platform=$BUILDPLATFORM registry.access.redhat.com/ubi9-minimal
 
 # Update the image to get the latest CVE updates
 RUN microdnf update -y \
