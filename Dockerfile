@@ -1,5 +1,5 @@
 
-FROM --platform=$BUILDPLATFORM registry.access.redhat.com/ubi9-minimal:latest
+FROM --platform=$BUILDPLATFORM registry.access.redhat.com/ubi10-minimal:latest
 
 # Update the image to get the latest CVE updates
 RUN microdnf update -y \
