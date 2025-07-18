@@ -1,13 +1,13 @@
 
-FROM --platform=$BUILDPLATFORM registry.access.redhat.com/ubi9-minimal:latest
+FROM --platform=$BUILDPLATFORM registry.access.redhat.com/ubi8-minimal:latest
 
 # Update the image to get the latest CVE updates
 RUN microdnf update -y \
  && microdnf install -y --nodocs \
     bash         \
-    curl-minimal \
+    curl \
     iproute      \
-    keepalived-2.2.8 \
+    keepalived-2.1.5 \
  && rm /etc/keepalived/keepalived.conf
 
 COPY /skel /
@@ -19,9 +19,9 @@ CMD ["./init.sh"]
 # Build specific labels
 LABEL maintainer="Guillaume Abrioux <gabrioux@redhat.com>"
 LABEL com.redhat.component="keepalived-container"
-LABEL version=2.2.8
+LABEL version=2.1.5
 LABEL name="keepalived"
 LABEL description="Red Hat Ceph Storage keepalived"
-LABEL summary="Provides the keepalived on RHEL 9 for Red Hat Ceph Storage."
-LABEL io.k8s.display-name="Keepalived on RHEL 9"
+LABEL summary="Provides the keepalived on RHEL 8 for Red Hat Ceph Storage."
+LABEL io.k8s.display-name="Keepalived on RHEL 8"
 LABEL io.openshift.tags="rhceph ceph keepalived"
