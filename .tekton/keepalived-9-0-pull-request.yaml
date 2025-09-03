@@ -95,7 +95,7 @@ spec:
       description: Image tag expiration time, time values could be something like 1h, 2d, 3w for hours, days, and weeks, respectively.
       name: image-expires-after
       type: string
-    - default: "false"
+    - default: "true"
       description: Build a source image.
       name: build-source-image
       type: string
@@ -561,6 +561,11 @@ spec:
         value: $(tasks.build-image-index.results.IMAGE_URL)
       - name: IMAGE_DIGEST
         value: $(tasks.build-image-index.results.IMAGE_DIGEST)
+      - name: ADDITIONAL_TAGS
+        value:
+          - "pull-request-{{pull_request_number}}"
+          - "from-branch-{{source_branch}}"
+          - "{{target_branch}}-$(tasks.clone-repository.results.commit-timestamp)"
       runAfter:
       - build-image-index
       taskRef:
@@ -608,7 +613,7 @@ spec:
         - name: name
           value: rpms-signature-scan
         - name: bundle
-          value: quay.io/konflux-ci/tekton-catalog/task-rpms-signature-scan:0.2@sha256:1b6c20ab3dbfb0972803d3ebcb2fa72642e59400c77bd66dfd82028bdd09e120
+          value: quay.io/konflux-ci/konflux-vanguard/task-rpms-signature-scan:0.2@sha256:49ff6d117c3e9dc3966d1244e118e168b3501742ec14c3a4161a276ff48d04d5
         - name: kind
           value: task
         resolver: bundles
