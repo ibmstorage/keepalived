@@ -23,7 +23,7 @@ spec:
   - name: revision
     value: '{{revision}}'
   - name: output-image
-    value: quay.io/rhceph-ci/keepalived:on-pr-{{revision}}
+    value: quay.io/rhceph-ci/keepalived:on-pr-v9.0-{{revision}}
   - name: image-expires-after
     value: 5d
   - name: build-platforms
@@ -87,7 +87,7 @@ spec:
       description: Execute the build with network isolation
       name: hermetic
       type: string
-    - default: '[{"type": "rpm", "path": "."}, {"type": "gomod", "path": "keepalived"}]'
+    - default: '[{"type": "rpm", "path": "."}]'
       description: Build dependencies to be prefetched by Cachi2
       name: prefetch-input
       type: string
@@ -289,6 +289,8 @@ spec:
       params:
       - name: BINARY_IMAGE
         value: $(tasks.build-image-index.results.IMAGE_URL)
+								 
+															  
       - name: SOURCE_ARTIFACT
         value: $(tasks.prefetch-dependencies.results.SOURCE_ARTIFACT)
       - name: CACHI2_ARTIFACT
@@ -337,11 +339,6 @@ spec:
         operator: in
         values:
         - "false"
-    - matrix:
-        params:
-        - name: image-platform
-          value:
-          - $(params.build-platforms)
       name: clair-scan
       params:
       - name: image-digest
