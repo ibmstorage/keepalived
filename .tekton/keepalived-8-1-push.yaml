@@ -84,7 +84,7 @@ spec:
       description: Execute the build with network isolation
       name: hermetic
       type: string
-    - default: '[{"type": "rpm", "path": "."}]'
+    - default: '{"type": "rpm", "path": "."}'
       description: Build dependencies to be prefetched by Cachi2
       name: prefetch-input
       type: string
@@ -294,12 +294,12 @@ spec:
       params:
       - name: BINARY_IMAGE
         value: $(tasks.build-image-index.results.IMAGE_URL)
+      - name: BINARY_IMAGE_DIGEST
+        value: $(tasks.build-image-index.results.IMAGE_DIGEST)
       - name: SOURCE_ARTIFACT
         value: $(tasks.prefetch-dependencies.results.SOURCE_ARTIFACT)
       - name: CACHI2_ARTIFACT
         value: $(tasks.prefetch-dependencies.results.CACHI2_ARTIFACT)
-      - name: BINARY_IMAGE_DIGEST
-        value: $(tasks.build-image-index.results.IMAGE_DIGEST)
       runAfter:
       - build-image-index
       taskRef:
@@ -573,7 +573,7 @@ spec:
         value: $(tasks.build-image-index.results.IMAGE_DIGEST)
       - name: ADDITIONAL_TAGS
         value:
-        - "v9.0"
+        - "v8.1"
         - "{{target_branch}}-$(tasks.clone-repository.results.commit-timestamp)"
       runAfter:
       - build-image-index
@@ -637,7 +637,7 @@ spec:
     - name: netrc
       optional: true
   taskRunTemplate:
-    serviceAccountName: build-pipeline-keepalived-9-0
+    serviceAccountName: build-pipeline-keepalived-8-1
   workspaces:
   - name: git-auth
     secret:
