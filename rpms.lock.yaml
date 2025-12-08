@@ -1173,20 +1173,20 @@ arches:
     name: readline
     evr: 8.2-11.el10
     sourcerpm: readline-8.2-11.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/r/redhat-release-10.1-17.el10.aarch64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/r/redhat-release-10.1-18.el10.aarch64.rpm
     repoid: rhel-10-for-aarch64-baseos-rpms
-    size: 61779
-    checksum: sha256:14ee0e2437adff23203300d8caaebda8bb044f993563b8dfc6cea2745d1aca19
+    size: 61967
+    checksum: sha256:82ca4b2e241a01a9c31eb8d012bd6efe0128f9d45abd6797090c3825ddb50d04
     name: redhat-release
-    evr: 10.1-17.el10
-    sourcerpm: redhat-release-10.1-17.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/r/redhat-release-eula-10.1-17.el10.aarch64.rpm
+    evr: 10.1-18.el10
+    sourcerpm: redhat-release-10.1-18.el10.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/r/redhat-release-eula-10.1-18.el10.aarch64.rpm
     repoid: rhel-10-for-aarch64-baseos-rpms
-    size: 15315
-    checksum: sha256:690ba221af5a28a5c5fc8914fcbce59c9bad1ef9064b4f2ec13e5295e4aef03d
+    size: 15484
+    checksum: sha256:8179c6d9dc98c327cb1ab2f2abea22c3cfd924da53ec30943f0a81ab3f0def89
     name: redhat-release-eula
-    evr: 10.1-17.el10
-    sourcerpm: redhat-release-10.1-17.el10.src.rpm
+    evr: 10.1-18.el10
+    sourcerpm: redhat-release-10.1-18.el10.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/r/rpm-4.19.1.1-20.el10.aarch64.rpm
     repoid: rhel-10-for-aarch64-baseos-rpms
     size: 575112
@@ -1989,12 +1989,12 @@ arches:
     checksum: sha256:55fe7cdfb4b7163853eb5a5e986fcf3fa24c92875951aa6a2e1aacfd913e172f
     name: readline
     evr: 8.2-11.el10
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/source/SRPMS/Packages/r/redhat-release-10.1-17.el10.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/source/SRPMS/Packages/r/redhat-release-10.1-18.el10.src.rpm
     repoid: rhel-10-for-aarch64-baseos-source-rpms
-    size: 116276
-    checksum: sha256:b42f5df383b99d8d69e19decbe237d75182e81fac7dfc2baecbdf71c3043dac1
+    size: 116713
+    checksum: sha256:6ccc1069bf9eb4fad27a03a26165081d4fda835c5c4a54b3295e29e03d13c36b
     name: redhat-release
-    evr: 10.1-17.el10
+    evr: 10.1-18.el10
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/source/SRPMS/Packages/r/rpm-4.19.1.1-20.el10.src.rpm
     repoid: rhel-10-for-aarch64-baseos-source-rpms
     size: 6005977
@@ -3232,20 +3232,20 @@ arches:
     name: readline
     evr: 8.2-11.el10
     sourcerpm: readline-8.2-11.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/r/redhat-release-10.1-17.el10.ppc64le.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/r/redhat-release-10.1-18.el10.ppc64le.rpm
     repoid: rhel-10-for-ppc64le-baseos-rpms
-    size: 61777
-    checksum: sha256:2f92ad94d2cdf9c2022398b707f85274ed4dc14c95e97f375bd30f2668428de3
+    size: 61971
+    checksum: sha256:0e713df63d649d9fa67f30e10b62da73bdbcc3f4f787dcb714f651b2bbc22269
     name: redhat-release
-    evr: 10.1-17.el10
-    sourcerpm: redhat-release-10.1-17.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/r/redhat-release-eula-10.1-17.el10.ppc64le.rpm
+    evr: 10.1-18.el10
+    sourcerpm: redhat-release-10.1-18.el10.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/r/redhat-release-eula-10.1-18.el10.ppc64le.rpm
     repoid: rhel-10-for-ppc64le-baseos-rpms
-    size: 15299
-    checksum: sha256:dd242dacf1c45f05e204dc471fceddd8be26eed20aa740ac545eee98c7c19b42
+    size: 15468
+    checksum: sha256:585753498f60e4302584e2570856b4a9e787233db18310aedc8cae9d1dce320c
     name: redhat-release-eula
-    evr: 10.1-17.el10
-    sourcerpm: redhat-release-10.1-17.el10.src.rpm
+    evr: 10.1-18.el10
+    sourcerpm: redhat-release-10.1-18.el10.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/r/rpm-4.19.1.1-20.el10.ppc64le.rpm
     repoid: rhel-10-for-ppc64le-baseos-rpms
     size: 576415
@@ -4042,12 +4042,12 @@ arches:
     checksum: sha256:55fe7cdfb4b7163853eb5a5e986fcf3fa24c92875951aa6a2e1aacfd913e172f
     name: readline
     evr: 8.2-11.el10
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/source/SRPMS/Packages/r/redhat-release-10.1-17.el10.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/source/SRPMS/Packages/r/redhat-release-10.1-18.el10.src.rpm
     repoid: rhel-10-for-ppc64le-baseos-source-rpms
-    size: 116276
-    checksum: sha256:b42f5df383b99d8d69e19decbe237d75182e81fac7dfc2baecbdf71c3043dac1
+    size: 116713
+    checksum: sha256:6ccc1069bf9eb4fad27a03a26165081d4fda835c5c4a54b3295e29e03d13c36b
     name: redhat-release
-    evr: 10.1-17.el10
+    evr: 10.1-18.el10
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/source/SRPMS/Packages/r/rpm-4.19.1.1-20.el10.src.rpm
     repoid: rhel-10-for-ppc64le-baseos-source-rpms
     size: 6005977
@@ -5285,20 +5285,20 @@ arches:
     name: readline
     evr: 8.2-11.el10
     sourcerpm: readline-8.2-11.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/r/redhat-release-10.1-17.el10.s390x.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/r/redhat-release-10.1-18.el10.s390x.rpm
     repoid: rhel-10-for-s390x-baseos-rpms
-    size: 61736
-    checksum: sha256:a106b4c5f177d6cdfec719a686884bc288467f13b36bf31ad8f57fdd4f4eeeda
+    size: 61924
+    checksum: sha256:6fa5d7ddd1693f4b60b2bc390c6d6eb5d8756843d83d5c22ff6475dfa1e3082e
     name: redhat-release
-    evr: 10.1-17.el10
-    sourcerpm: redhat-release-10.1-17.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/r/redhat-release-eula-10.1-17.el10.s390x.rpm
+    evr: 10.1-18.el10
+    sourcerpm: redhat-release-10.1-18.el10.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/r/redhat-release-eula-10.1-18.el10.s390x.rpm
     repoid: rhel-10-for-s390x-baseos-rpms
-    size: 15287
-    checksum: sha256:c7e3fc3f7a81371a65bea325d69c31b6d060d8c6c0dad0a24a09e9d2cf5d9e98
+    size: 15456
+    checksum: sha256:45a31f06dfbb70115b15ea5fa9d4859b1c4124e24f52eaccec98496cb406fce6
     name: redhat-release-eula
-    evr: 10.1-17.el10
-    sourcerpm: redhat-release-10.1-17.el10.src.rpm
+    evr: 10.1-18.el10
+    sourcerpm: redhat-release-10.1-18.el10.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/r/rpm-4.19.1.1-20.el10.s390x.rpm
     repoid: rhel-10-for-s390x-baseos-rpms
     size: 573464
@@ -6095,12 +6095,12 @@ arches:
     checksum: sha256:55fe7cdfb4b7163853eb5a5e986fcf3fa24c92875951aa6a2e1aacfd913e172f
     name: readline
     evr: 8.2-11.el10
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/source/SRPMS/Packages/r/redhat-release-10.1-17.el10.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/source/SRPMS/Packages/r/redhat-release-10.1-18.el10.src.rpm
     repoid: rhel-10-for-s390x-baseos-source-rpms
-    size: 116276
-    checksum: sha256:b42f5df383b99d8d69e19decbe237d75182e81fac7dfc2baecbdf71c3043dac1
+    size: 116713
+    checksum: sha256:6ccc1069bf9eb4fad27a03a26165081d4fda835c5c4a54b3295e29e03d13c36b
     name: redhat-release
-    evr: 10.1-17.el10
+    evr: 10.1-18.el10
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/source/SRPMS/Packages/r/rpm-4.19.1.1-20.el10.src.rpm
     repoid: rhel-10-for-s390x-baseos-source-rpms
     size: 6005977
@@ -7345,20 +7345,20 @@ arches:
     name: readline
     evr: 8.2-11.el10
     sourcerpm: readline-8.2-11.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/r/redhat-release-10.1-17.el10.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/r/redhat-release-10.1-18.el10.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
-    size: 61778
-    checksum: sha256:70335c1037739c4d8c0f93fd69b927fbecec94a08b44ee4ab34b38e7f1fd3520
+    size: 61967
+    checksum: sha256:f19defae165ba4dbcd680d90396df27562f3d15f2521b5f3c78f90b8636c9dab
     name: redhat-release
-    evr: 10.1-17.el10
-    sourcerpm: redhat-release-10.1-17.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/r/redhat-release-eula-10.1-17.el10.x86_64.rpm
+    evr: 10.1-18.el10
+    sourcerpm: redhat-release-10.1-18.el10.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/r/redhat-release-eula-10.1-18.el10.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
-    size: 15331
-    checksum: sha256:ddc7bef06d5bdd97a6795f8c8ed7399e15c13a06f64c35a6fd15004e3cb47a8a
+    size: 15508
+    checksum: sha256:0c3e1e691a74f4ed330d81e72007f09c643d70b00af90603975c0951ee21bc7d
     name: redhat-release-eula
-    evr: 10.1-17.el10
-    sourcerpm: redhat-release-10.1-17.el10.src.rpm
+    evr: 10.1-18.el10
+    sourcerpm: redhat-release-10.1-18.el10.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/r/rpm-4.19.1.1-20.el10.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
     size: 573861
@@ -8161,12 +8161,12 @@ arches:
     checksum: sha256:55fe7cdfb4b7163853eb5a5e986fcf3fa24c92875951aa6a2e1aacfd913e172f
     name: readline
     evr: 8.2-11.el10
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/r/redhat-release-10.1-17.el10.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/r/redhat-release-10.1-18.el10.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
-    size: 116276
-    checksum: sha256:b42f5df383b99d8d69e19decbe237d75182e81fac7dfc2baecbdf71c3043dac1
+    size: 116713
+    checksum: sha256:6ccc1069bf9eb4fad27a03a26165081d4fda835c5c4a54b3295e29e03d13c36b
     name: redhat-release
-    evr: 10.1-17.el10
+    evr: 10.1-18.el10
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/r/rpm-4.19.1.1-20.el10.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
     size: 6005977
