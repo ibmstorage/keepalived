@@ -1103,13 +1103,13 @@ arches:
     name: openssl-fips-provider-so
     evr: 3.0.7-8.el10
     sourcerpm: openssl-fips-provider-3.0.7-8.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/o/openssl-libs-3.5.1-4.el10_1.aarch64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/o/openssl-libs-3.5.1-5.el10_1.aarch64.rpm
     repoid: rhel-10-for-aarch64-baseos-rpms
-    size: 2221704
-    checksum: sha256:29720dda0975c9baafbe7e63eda48c6f4e8a01450a3a85d61597ddfab5955d0b
+    size: 2221345
+    checksum: sha256:15aa34f7b37c1bd5fe9e9de9c02c13209d34a9ac7d889eb991c3015b9c49dd6e
     name: openssl-libs
-    evr: 1:3.5.1-4.el10_1
-    sourcerpm: openssl-3.5.1-4.el10_1.src.rpm
+    evr: 1:3.5.1-5.el10_1
+    sourcerpm: openssl-3.5.1-5.el10_1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/os/Packages/p/p11-kit-0.25.5-7.el10.aarch64.rpm
     repoid: rhel-10-for-aarch64-baseos-rpms
     size: 497965
@@ -1935,12 +1935,12 @@ arches:
     checksum: sha256:c51a5a6eefb4b94a5bd377e140710df620a6ffd7373e96e32f0afae9bec8d8ea
     name: openldap
     evr: 2.6.9-1.el10
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/source/SRPMS/Packages/o/openssl-3.5.1-4.el10_1.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/source/SRPMS/Packages/o/openssl-3.5.1-5.el10_1.src.rpm
     repoid: rhel-10-for-aarch64-baseos-source-rpms
-    size: 53404950
-    checksum: sha256:1b5ac10212f461b0758d201242d26f97940999c74768674d29dd4acaa7dba237
+    size: 53407310
+    checksum: sha256:0e731cae33a67c5134ebd35e5e2968ee131b0059149175a1bb029369fb32b545
     name: openssl
-    evr: 1:3.5.1-4.el10_1
+    evr: 1:3.5.1-5.el10_1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/aarch64/baseos/source/SRPMS/Packages/o/openssl-fips-provider-3.0.7-8.el10.src.rpm
     repoid: rhel-10-for-aarch64-baseos-source-rpms
     size: 89985694
@@ -3162,13 +3162,13 @@ arches:
     name: openssl-fips-provider-so
     evr: 3.0.7-8.el10
     sourcerpm: openssl-fips-provider-3.0.7-8.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/o/openssl-libs-3.5.1-4.el10_1.ppc64le.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/o/openssl-libs-3.5.1-5.el10_1.ppc64le.rpm
     repoid: rhel-10-for-ppc64le-baseos-rpms
-    size: 2485738
-    checksum: sha256:547ea5e8a0a17e9b85ac4d20b0dafa6619c81066b42ae05ae0a54a87f9b05494
+    size: 2486276
+    checksum: sha256:5e7ca29853a60e30aa2c6a9a19a8144b14a7017b7f937ba193232076c879f964
     name: openssl-libs
-    evr: 1:3.5.1-4.el10_1
-    sourcerpm: openssl-3.5.1-4.el10_1.src.rpm
+    evr: 1:3.5.1-5.el10_1
+    sourcerpm: openssl-3.5.1-5.el10_1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/os/Packages/p/p11-kit-0.25.5-7.el10.ppc64le.rpm
     repoid: rhel-10-for-ppc64le-baseos-rpms
     size: 515427
@@ -3988,12 +3988,12 @@ arches:
     checksum: sha256:c51a5a6eefb4b94a5bd377e140710df620a6ffd7373e96e32f0afae9bec8d8ea
     name: openldap
     evr: 2.6.9-1.el10
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/source/SRPMS/Packages/o/openssl-3.5.1-4.el10_1.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/source/SRPMS/Packages/o/openssl-3.5.1-5.el10_1.src.rpm
     repoid: rhel-10-for-ppc64le-baseos-source-rpms
-    size: 53404950
-    checksum: sha256:1b5ac10212f461b0758d201242d26f97940999c74768674d29dd4acaa7dba237
+    size: 53407310
+    checksum: sha256:0e731cae33a67c5134ebd35e5e2968ee131b0059149175a1bb029369fb32b545
     name: openssl
-    evr: 1:3.5.1-4.el10_1
+    evr: 1:3.5.1-5.el10_1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/ppc64le/baseos/source/SRPMS/Packages/o/openssl-fips-provider-3.0.7-8.el10.src.rpm
     repoid: rhel-10-for-ppc64le-baseos-source-rpms
     size: 89985694
@@ -5215,13 +5215,13 @@ arches:
     name: openssl-fips-provider-so
     evr: 3.0.7-8.el10
     sourcerpm: openssl-fips-provider-3.0.7-8.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/o/openssl-libs-3.5.1-4.el10_1.s390x.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/o/openssl-libs-3.5.1-5.el10_1.s390x.rpm
     repoid: rhel-10-for-s390x-baseos-rpms
-    size: 2115924
-    checksum: sha256:7bf82f452a012caf3d84b0f8728505097ca0ca1d44a4f03102279f183be71c2a
+    size: 2118264
+    checksum: sha256:9e178dcd071dedbddcf1bb3d3fffe65b5a68ff499f0cb6f1418da9ba826e2875
     name: openssl-libs
-    evr: 1:3.5.1-4.el10_1
-    sourcerpm: openssl-3.5.1-4.el10_1.src.rpm
+    evr: 1:3.5.1-5.el10_1
+    sourcerpm: openssl-3.5.1-5.el10_1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/os/Packages/p/p11-kit-0.25.5-7.el10.s390x.rpm
     repoid: rhel-10-for-s390x-baseos-rpms
     size: 557764
@@ -6041,12 +6041,12 @@ arches:
     checksum: sha256:c51a5a6eefb4b94a5bd377e140710df620a6ffd7373e96e32f0afae9bec8d8ea
     name: openldap
     evr: 2.6.9-1.el10
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/source/SRPMS/Packages/o/openssl-3.5.1-4.el10_1.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/source/SRPMS/Packages/o/openssl-3.5.1-5.el10_1.src.rpm
     repoid: rhel-10-for-s390x-baseos-source-rpms
-    size: 53404950
-    checksum: sha256:1b5ac10212f461b0758d201242d26f97940999c74768674d29dd4acaa7dba237
+    size: 53407310
+    checksum: sha256:0e731cae33a67c5134ebd35e5e2968ee131b0059149175a1bb029369fb32b545
     name: openssl
-    evr: 1:3.5.1-4.el10_1
+    evr: 1:3.5.1-5.el10_1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/s390x/baseos/source/SRPMS/Packages/o/openssl-fips-provider-3.0.7-8.el10.src.rpm
     repoid: rhel-10-for-s390x-baseos-source-rpms
     size: 89985694
@@ -7275,13 +7275,13 @@ arches:
     name: openssl-fips-provider-so
     evr: 3.0.7-8.el10
     sourcerpm: openssl-fips-provider-3.0.7-8.el10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/o/openssl-libs-3.5.1-4.el10_1.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/o/openssl-libs-3.5.1-5.el10_1.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
-    size: 2363070
-    checksum: sha256:ceb8783825023a1575bc261fc6fa413bda6a8b90da81d0f6e6244e6b9c2a014a
+    size: 2362997
+    checksum: sha256:c398e5f0f1ec9c75e1f836667d0b31a96081380eff855dcadb1b1d304bf22d2a
     name: openssl-libs
-    evr: 1:3.5.1-4.el10_1
-    sourcerpm: openssl-3.5.1-4.el10_1.src.rpm
+    evr: 1:3.5.1-5.el10_1
+    sourcerpm: openssl-3.5.1-5.el10_1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/os/Packages/p/p11-kit-0.25.5-7.el10.x86_64.rpm
     repoid: rhel-10-for-x86_64-baseos-rpms
     size: 513179
@@ -8107,12 +8107,12 @@ arches:
     checksum: sha256:c51a5a6eefb4b94a5bd377e140710df620a6ffd7373e96e32f0afae9bec8d8ea
     name: openldap
     evr: 2.6.9-1.el10
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/o/openssl-3.5.1-4.el10_1.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/o/openssl-3.5.1-5.el10_1.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
-    size: 53404950
-    checksum: sha256:1b5ac10212f461b0758d201242d26f97940999c74768674d29dd4acaa7dba237
+    size: 53407310
+    checksum: sha256:0e731cae33a67c5134ebd35e5e2968ee131b0059149175a1bb029369fb32b545
     name: openssl
-    evr: 1:3.5.1-4.el10_1
+    evr: 1:3.5.1-5.el10_1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel10/10/x86_64/baseos/source/SRPMS/Packages/o/openssl-fips-provider-3.0.7-8.el10.src.rpm
     repoid: rhel-10-for-x86_64-baseos-source-rpms
     size: 89985694
