@@ -11,6 +11,9 @@ RUN microdnf update -y \
 
 COPY /skel /
 
+RUN mkdir /licenses
+COPY ./licenses /licenses
+
 RUN chmod +x init.sh
 
 CMD ["./init.sh"]
