@@ -177,6 +177,8 @@ spec:
         value: $(params.output-image).prefetch
       - name: ociArtifactExpiresAfter
         value: $(params.image-expires-after)
+      - name: log-level
+        value: debug
       runAfter:
       - clone-repository
       taskRef:
