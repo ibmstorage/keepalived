@@ -19,7 +19,7 @@ CMD ["./init.sh"]
 LABEL maintainer="Guillaume Abrioux <gabrioux@redhat.com>"
 LABEL com.redhat.component="keepalived-container"
 LABEL version=2.1.5
-LABEL name="keepalived"
+LABEL name=rhceph/keepalived-rhel8
 LABEL description="Red Hat Ceph Storage keepalived"
 LABEL summary="Provides the keepalived on RHEL 8 for Red Hat Ceph Storage."
 LABEL io.k8s.display-name="Keepalived on RHEL 8"
@@ -27,5 +27,4 @@ LABEL io.openshift.tags="rhceph ceph keepalived"
 
 # Konflux specific labels
 LABEL io.k8s.description="keepalived-container"
-LABEL cpe=cpe:/a:redhat:ceph_storage:5::el8
-LABEL org.opencontainers.image.created="${BUILD_DATE}"
+LABEL cpe=cpe:/a:redhat:ceph_storage:5.3::el8
