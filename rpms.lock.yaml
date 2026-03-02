@@ -935,20 +935,20 @@ arches:
     name: openldap
     evr: 2.4.46-21.el8_10
     sourcerpm: openldap-2.4.46-21.el8_10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/ppc64le/baseos/os/Packages/o/openssl-1.1.1k-14.el8_10.ppc64le.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/ppc64le/baseos/os/Packages/o/openssl-1.1.1k-15.el8_6.ppc64le.rpm
     repoid: rhel-8-for-ppc64le-baseos-rpms
-    size: 730868
-    checksum: sha256:582368e2b737656ab875b57f292dc04426eb5f93136696c3d55523cc49fcc399
+    size: 731108
+    checksum: sha256:d6c741668d38f56baf2d0f6fb0f20e85f47859efc87045b036813f0ee576f77e
     name: openssl
-    evr: 1:1.1.1k-14.el8_10
-    sourcerpm: openssl-1.1.1k-14.el8_10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/ppc64le/baseos/os/Packages/o/openssl-libs-1.1.1k-14.el8_10.ppc64le.rpm
+    evr: 1:1.1.1k-15.el8_6
+    sourcerpm: openssl-1.1.1k-15.el8_6.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/ppc64le/baseos/os/Packages/o/openssl-libs-1.1.1k-15.el8_6.ppc64le.rpm
     repoid: rhel-8-for-ppc64le-baseos-rpms
-    size: 1579712
-    checksum: sha256:0883b5f4e8acf649cfb5491f7dde772e9329e6e1709e56c563bea833b3a192b0
+    size: 1579640
+    checksum: sha256:b36c50df84ed43d63bebde420aa97d8893c09ab97f3d9615e21fa892c150f449
     name: openssl-libs
-    evr: 1:1.1.1k-14.el8_10
-    sourcerpm: openssl-1.1.1k-14.el8_10.src.rpm
+    evr: 1:1.1.1k-15.el8_6
+    sourcerpm: openssl-1.1.1k-15.el8_6.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/ppc64le/baseos/os/Packages/o/openssl-pkcs11-0.4.10-3.el8.ppc64le.rpm
     repoid: rhel-8-for-ppc64le-baseos-rpms
     size: 73064
@@ -1497,10 +1497,10 @@ arches:
     sourcerpm: zlib-1.2.11-25.el8.src.rpm
   source: []
   module_metadata:
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/ppc64le/appstream/os/repodata/1438f2891237416f129a80fac502653deaa5406d15e683baa4e417b693034b6a-modules.yaml.gz
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/ppc64le/appstream/os/repodata/e604a87cb0b922fbdc6b2ce67ce67baf57edcfef5d160bcc301b8a0362a429b5-modules.yaml.gz
     repoid: rhel-8-for-ppc64le-appstream-rpms
-    size: 761744
-    checksum: sha256:1438f2891237416f129a80fac502653deaa5406d15e683baa4e417b693034b6a
+    size: 763998
+    checksum: sha256:e604a87cb0b922fbdc6b2ce67ce67baf57edcfef5d160bcc301b8a0362a429b5
 - arch: s390x
   packages:
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/s390x/appstream/os/Packages/k/keepalived-2.1.5-11.el8_10.s390x.rpm
@@ -2315,20 +2315,20 @@ arches:
     name: openldap
     evr: 2.4.46-21.el8_10
     sourcerpm: openldap-2.4.46-21.el8_10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/s390x/baseos/os/Packages/o/openssl-1.1.1k-14.el8_10.s390x.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/s390x/baseos/os/Packages/o/openssl-1.1.1k-15.el8_6.s390x.rpm
     repoid: rhel-8-for-s390x-baseos-rpms
-    size: 713908
-    checksum: sha256:671a1a421599b359980a8b9385653636673a9bd2d3fccef8cd3619d529d5a7ae
+    size: 714140
+    checksum: sha256:cbcf269f4a0d72dcfc83b23b1dcd7589ed96864d89f30244c7fcdacff782a00a
     name: openssl
-    evr: 1:1.1.1k-14.el8_10
-    sourcerpm: openssl-1.1.1k-14.el8_10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/s390x/baseos/os/Packages/o/openssl-libs-1.1.1k-14.el8_10.s390x.rpm
+    evr: 1:1.1.1k-15.el8_6
+    sourcerpm: openssl-1.1.1k-15.el8_6.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/s390x/baseos/os/Packages/o/openssl-libs-1.1.1k-15.el8_6.s390x.rpm
     repoid: rhel-8-for-s390x-baseos-rpms
     size: 1213744
-    checksum: sha256:5afefe16ce70e9284ed2dfca9829c1392875c721ce50bd354882d28f051048a5
+    checksum: sha256:7b7699734dd9e1f5cdc8744325c048382fea0341f4607f72c675c03cea8afde7
     name: openssl-libs
-    evr: 1:1.1.1k-14.el8_10
-    sourcerpm: openssl-1.1.1k-14.el8_10.src.rpm
+    evr: 1:1.1.1k-15.el8_6
+    sourcerpm: openssl-1.1.1k-15.el8_6.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/s390x/baseos/os/Packages/o/openssl-pkcs11-0.4.10-3.el8.s390x.rpm
     repoid: rhel-8-for-s390x-baseos-rpms
     size: 65896
@@ -2877,10 +2877,10 @@ arches:
     sourcerpm: zlib-1.2.11-25.el8.src.rpm
   source: []
   module_metadata:
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/s390x/appstream/os/repodata/083a163ba4b761c25c802ab227b4c69bdffc58166a1d20fe8b3bc02d0d9e30d3-modules.yaml.gz
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/s390x/appstream/os/repodata/6cf606b34775347817ff4ee5b089119dc7b54dd23f78bc71dd8380a52bbbcfec-modules.yaml.gz
     repoid: rhel-8-for-s390x-appstream-rpms
-    size: 763388
-    checksum: sha256:083a163ba4b761c25c802ab227b4c69bdffc58166a1d20fe8b3bc02d0d9e30d3
+    size: 765384
+    checksum: sha256:6cf606b34775347817ff4ee5b089119dc7b54dd23f78bc71dd8380a52bbbcfec
 - arch: x86_64
   packages:
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/k/keepalived-2.1.5-11.el8_10.x86_64.rpm
@@ -3814,20 +3814,20 @@ arches:
     name: openldap
     evr: 2.4.46-21.el8_10
     sourcerpm: openldap-2.4.46-21.el8_10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/o/openssl-1.1.1k-14.el8_10.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/o/openssl-1.1.1k-15.el8_6.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 727084
-    checksum: sha256:53536a8f76a30cb67a288dc7c9ded095e5bb1976fd11d113101c932b2878ca6b
+    size: 727444
+    checksum: sha256:494eba79b38e02a26c6da8e68f638ce36101374596bbcbbf5f616e13d3597791
     name: openssl
-    evr: 1:1.1.1k-14.el8_10
-    sourcerpm: openssl-1.1.1k-14.el8_10.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/o/openssl-libs-1.1.1k-14.el8_10.x86_64.rpm
+    evr: 1:1.1.1k-15.el8_6
+    sourcerpm: openssl-1.1.1k-15.el8_6.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/o/openssl-libs-1.1.1k-15.el8_6.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 1541912
-    checksum: sha256:0a28a74fb4b00d923b8d495c8875f6ffaeb7fee5b23388b42d2e3583c4b88be0
+    size: 1541832
+    checksum: sha256:d47a3b17a1f976cfba7ecca50ec5aaa863eaef76d3f42238a81165583d0467ef
     name: openssl-libs
-    evr: 1:1.1.1k-14.el8_10
-    sourcerpm: openssl-1.1.1k-14.el8_10.src.rpm
+    evr: 1:1.1.1k-15.el8_6
+    sourcerpm: openssl-1.1.1k-15.el8_6.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/o/openssl-pkcs11-0.4.10-3.el8.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 67740
@@ -4376,7 +4376,7 @@ arches:
     sourcerpm: zlib-1.2.11-25.el8.src.rpm
   source: []
   module_metadata:
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/fd8ae68519e0c8d8f4bfb4cb930438e94a8aafc0bb0379212c25ae227c72b89f-modules.yaml.gz
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/a408b5c6836f71fc37260c25808c0e740fe752f47925689d6734a7dc6c0e1989-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-rpms
-    size: 789386
-    checksum: sha256:fd8ae68519e0c8d8f4bfb4cb930438e94a8aafc0bb0379212c25ae227c72b89f
+    size: 791175
+    checksum: sha256:a408b5c6836f71fc37260c25808c0e740fe752f47925689d6734a7dc6c0e1989
