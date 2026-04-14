@@ -858,13 +858,13 @@ arches:
     name: libnftnl
     evr: 1.2.6-4.el9_4
     sourcerpm: libnftnl-1.2.6-4.el9_4.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/l/libnghttp2-1.43.0-6.el9.aarch64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/l/libnghttp2-1.43.0-6.el9_7.1.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 75928
-    checksum: sha256:049f00edc1895a2091d81a0dfb9c55c586d8f3f658bf8d19a834a20860c9edb1
+    size: 79593
+    checksum: sha256:60e82df5c22ff2aa0c093b6c3992a13e32e1c0998e27020be724c3d9cc4892f2
     name: libnghttp2
-    evr: 1.43.0-6.el9
-    sourcerpm: nghttp2-1.43.0-6.el9.src.rpm
+    evr: 1.43.0-6.el9_7.1
+    sourcerpm: nghttp2-1.43.0-6.el9_7.1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/os/Packages/l/libnl3-3.11.0-1.el9.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
     size: 363241
@@ -1909,12 +1909,12 @@ arches:
     checksum: sha256:cdb59ed3771a3a4f00e2ffca853f2de4aa887e3d5c3655317f2e2c03f461103f
     name: ncurses
     evr: 6.2-12.20210508.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/n/nghttp2-1.43.0-6.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/n/nghttp2-1.43.0-6.el9_7.1.src.rpm
     repoid: rhel-9-for-aarch64-baseos-source-rpms
-    size: 3998164
-    checksum: sha256:6ae71ec17624d7e1e0565a6dc4cff9cb7b88b5bf412d37744703f5a3b5a8a00b
+    size: 4003759
+    checksum: sha256:6a1a3c8ee5ed3ebd826d16e9432102657903fbc833002b61e26d251f903b7a6a
     name: nghttp2
-    evr: 1.43.0-6.el9
+    evr: 1.43.0-6.el9_7.1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/baseos/source/SRPMS/Packages/o/openldap-2.6.8-4.el9.src.rpm
     repoid: rhel-9-for-aarch64-baseos-source-rpms
     size: 6548889
@@ -2903,13 +2903,13 @@ arches:
     name: libnftnl
     evr: 1.2.6-4.el9_4
     sourcerpm: libnftnl-1.2.6-4.el9_4.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/l/libnghttp2-1.43.0-6.el9.ppc64le.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/l/libnghttp2-1.43.0-6.el9_7.1.ppc64le.rpm
     repoid: rhel-9-for-ppc64le-baseos-rpms
-    size: 85990
-    checksum: sha256:6f9c2190323d33ec5d9355965971a6d5423fb233d152f95b91a6e7b3b80ab584
+    size: 89545
+    checksum: sha256:9d85c546efc693de263ef885d1bd79d00717a8a64dfeb7c7baa967401f757160
     name: libnghttp2
-    evr: 1.43.0-6.el9
-    sourcerpm: nghttp2-1.43.0-6.el9.src.rpm
+    evr: 1.43.0-6.el9_7.1
+    sourcerpm: nghttp2-1.43.0-6.el9_7.1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/os/Packages/l/libnl3-3.11.0-1.el9.ppc64le.rpm
     repoid: rhel-9-for-ppc64le-baseos-rpms
     size: 393979
@@ -3961,12 +3961,12 @@ arches:
     checksum: sha256:cdb59ed3771a3a4f00e2ffca853f2de4aa887e3d5c3655317f2e2c03f461103f
     name: ncurses
     evr: 6.2-12.20210508.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/n/nghttp2-1.43.0-6.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/n/nghttp2-1.43.0-6.el9_7.1.src.rpm
     repoid: rhel-9-for-ppc64le-baseos-source-rpms
-    size: 3998164
-    checksum: sha256:6ae71ec17624d7e1e0565a6dc4cff9cb7b88b5bf412d37744703f5a3b5a8a00b
+    size: 4003759
+    checksum: sha256:6a1a3c8ee5ed3ebd826d16e9432102657903fbc833002b61e26d251f903b7a6a
     name: nghttp2
-    evr: 1.43.0-6.el9
+    evr: 1.43.0-6.el9_7.1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/baseos/source/SRPMS/Packages/o/openldap-2.6.8-4.el9.src.rpm
     repoid: rhel-9-for-ppc64le-baseos-source-rpms
     size: 6548889
@@ -4955,13 +4955,13 @@ arches:
     name: libnftnl
     evr: 1.2.6-4.el9_4
     sourcerpm: libnftnl-1.2.6-4.el9_4.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/l/libnghttp2-1.43.0-6.el9.s390x.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/l/libnghttp2-1.43.0-6.el9_7.1.s390x.rpm
     repoid: rhel-9-for-s390x-baseos-rpms
-    size: 74709
-    checksum: sha256:2e625ed22a873782f0a7bc21a71187e87b8b6d037cba455b1e3dcb3c95aecd4f
+    size: 78113
+    checksum: sha256:106eb532962c17f6ece718221898c6b251a8b363334ab14acac2d779bb0a3bf0
     name: libnghttp2
-    evr: 1.43.0-6.el9
-    sourcerpm: nghttp2-1.43.0-6.el9.src.rpm
+    evr: 1.43.0-6.el9_7.1
+    sourcerpm: nghttp2-1.43.0-6.el9_7.1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/os/Packages/l/libnl3-3.11.0-1.el9.s390x.rpm
     repoid: rhel-9-for-s390x-baseos-rpms
     size: 361754
@@ -6000,12 +6000,12 @@ arches:
     checksum: sha256:cdb59ed3771a3a4f00e2ffca853f2de4aa887e3d5c3655317f2e2c03f461103f
     name: ncurses
     evr: 6.2-12.20210508.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/n/nghttp2-1.43.0-6.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/n/nghttp2-1.43.0-6.el9_7.1.src.rpm
     repoid: rhel-9-for-s390x-baseos-source-rpms
-    size: 3998164
-    checksum: sha256:6ae71ec17624d7e1e0565a6dc4cff9cb7b88b5bf412d37744703f5a3b5a8a00b
+    size: 4003759
+    checksum: sha256:6a1a3c8ee5ed3ebd826d16e9432102657903fbc833002b61e26d251f903b7a6a
     name: nghttp2
-    evr: 1.43.0-6.el9
+    evr: 1.43.0-6.el9_7.1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/baseos/source/SRPMS/Packages/o/openldap-2.6.8-4.el9.src.rpm
     repoid: rhel-9-for-s390x-baseos-source-rpms
     size: 6548889
@@ -7001,13 +7001,13 @@ arches:
     name: libnftnl
     evr: 1.2.6-4.el9_4
     sourcerpm: libnftnl-1.2.6-4.el9_4.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/libnghttp2-1.43.0-6.el9.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/libnghttp2-1.43.0-6.el9_7.1.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 76742
-    checksum: sha256:ebc37f2252164962b03dd3a4b5e53ab5e1e9234a8657219e8c8e9064dcb98b2e
+    size: 80370
+    checksum: sha256:a3df6142080db5d53d1a50cdc64ab7fef0b3cf6bfeb7100a6ffee10d1b9664da
     name: libnghttp2
-    evr: 1.43.0-6.el9
-    sourcerpm: nghttp2-1.43.0-6.el9.src.rpm
+    evr: 1.43.0-6.el9_7.1
+    sourcerpm: nghttp2-1.43.0-6.el9_7.1.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/libnl3-3.11.0-1.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
     size: 376137
@@ -8052,12 +8052,12 @@ arches:
     checksum: sha256:cdb59ed3771a3a4f00e2ffca853f2de4aa887e3d5c3655317f2e2c03f461103f
     name: ncurses
     evr: 6.2-12.20210508.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/n/nghttp2-1.43.0-6.el9.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/n/nghttp2-1.43.0-6.el9_7.1.src.rpm
     repoid: rhel-9-for-x86_64-baseos-source-rpms
-    size: 3998164
-    checksum: sha256:6ae71ec17624d7e1e0565a6dc4cff9cb7b88b5bf412d37744703f5a3b5a8a00b
+    size: 4003759
+    checksum: sha256:6a1a3c8ee5ed3ebd826d16e9432102657903fbc833002b61e26d251f903b7a6a
     name: nghttp2
-    evr: 1.43.0-6.el9
+    evr: 1.43.0-6.el9_7.1
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/baseos/source/SRPMS/Packages/o/openldap-2.6.8-4.el9.src.rpm
     repoid: rhel-9-for-x86_64-baseos-source-rpms
     size: 6548889
