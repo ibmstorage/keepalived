@@ -29,3 +29,6 @@ LABEL io.k8s.display-name="Keepalived on RHEL 9"
 LABEL io.k8s.description="keepalived-container"
 LABEL io.openshift.tags="rhceph ceph keepalived"
 LABEL cpe=cpe:/a:redhat:ceph_storage:7.1::el9
+
+# Z-stream indicator
+LABEL Z-VERSION="7.1z10"
