@@ -25,20 +25,20 @@ arches:
     name: lm_sensors-libs
     evr: 3.6.0-10.el9
     sourcerpm: lm_sensors-3.6.0-10.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/m/mariadb-connector-c-3.2.6-1.el9_0.aarch64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/m/mariadb-connector-c-3.2.6-2.el9_8.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
-    size: 206169
-    checksum: sha256:2f8042078a1acc7ba168581c4fb158aba361e771871a7e132d91c25c62f30ffd
+    size: 206427
+    checksum: sha256:a8f0913bfd291bb996532cc49664ce28b4e312c24d9f7bc6ed05a666e8373316
     name: mariadb-connector-c
-    evr: 3.2.6-1.el9_0
-    sourcerpm: mariadb-connector-c-3.2.6-1.el9_0.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/m/mariadb-connector-c-config-3.2.6-1.el9_0.noarch.rpm
+    evr: 3.2.6-2.el9_8
+    sourcerpm: mariadb-connector-c-3.2.6-2.el9_8.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/m/mariadb-connector-c-config-3.2.6-2.el9_8.noarch.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
-    size: 11742
-    checksum: sha256:a8b3b1dc7d7dd20090f9641f5cf2fb25d580467a38b5c27eb4951175285e6e57
+    size: 14225
+    checksum: sha256:7aa2778a21a07580d851ef507dcc2eb097471f35be385e37e3346e60af18951e
     name: mariadb-connector-c-config
-    evr: 3.2.6-1.el9_0
-    sourcerpm: mariadb-connector-c-3.2.6-1.el9_0.src.rpm
+    evr: 3.2.6-2.el9_8
+    sourcerpm: mariadb-connector-c-3.2.6-2.el9_8.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/os/Packages/n/net-snmp-agent-libs-5.9.1-21.el9.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
     size: 693951
@@ -1291,12 +1291,12 @@ arches:
     checksum: sha256:d60c0df5ea8b2ba3100d08689d80c0f6015165f3529584c580622687956870d1
     name: lm_sensors
     evr: 3.6.0-10.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/source/SRPMS/Packages/m/mariadb-connector-c-3.2.6-1.el9_0.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/source/SRPMS/Packages/m/mariadb-connector-c-3.2.6-2.el9_8.src.rpm
     repoid: rhel-9-for-aarch64-appstream-source-rpms
-    size: 1011074
-    checksum: sha256:a2cf7fda38167d02ed521facf74439311cb4d1c43f9c385445eb34e748e8fdc7
+    size: 1014597
+    checksum: sha256:12b12bc18dc760c9b8fc4295397879d6bceb02bed784bcb7b3a2a5d8b3651d1d
     name: mariadb-connector-c
-    evr: 3.2.6-1.el9_0
+    evr: 3.2.6-2.el9_8
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/aarch64/appstream/source/SRPMS/Packages/n/net-snmp-5.9.1-21.el9.src.rpm
     repoid: rhel-9-for-aarch64-appstream-source-rpms
     size: 6806877
@@ -2070,20 +2070,20 @@ arches:
     name: keepalived
     evr: 2.2.8-6.el9
     sourcerpm: keepalived-2.2.8-6.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/os/Packages/m/mariadb-connector-c-3.2.6-1.el9_0.ppc64le.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/os/Packages/m/mariadb-connector-c-3.2.6-2.el9_8.ppc64le.rpm
     repoid: rhel-9-for-ppc64le-appstream-rpms
-    size: 228318
-    checksum: sha256:1753a64a0e06cb03819b89f40335b2238327282ded11def391b832bf7ec4fb1a
+    size: 226443
+    checksum: sha256:2d97ff1c4bbbb9f3ecd8528cfa3f9d02551038127748c173186d9330acd3aa31
     name: mariadb-connector-c
-    evr: 3.2.6-1.el9_0
-    sourcerpm: mariadb-connector-c-3.2.6-1.el9_0.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/os/Packages/m/mariadb-connector-c-config-3.2.6-1.el9_0.noarch.rpm
+    evr: 3.2.6-2.el9_8
+    sourcerpm: mariadb-connector-c-3.2.6-2.el9_8.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/os/Packages/m/mariadb-connector-c-config-3.2.6-2.el9_8.noarch.rpm
     repoid: rhel-9-for-ppc64le-appstream-rpms
-    size: 11742
-    checksum: sha256:a8b3b1dc7d7dd20090f9641f5cf2fb25d580467a38b5c27eb4951175285e6e57
+    size: 14225
+    checksum: sha256:7aa2778a21a07580d851ef507dcc2eb097471f35be385e37e3346e60af18951e
     name: mariadb-connector-c-config
-    evr: 3.2.6-1.el9_0
-    sourcerpm: mariadb-connector-c-3.2.6-1.el9_0.src.rpm
+    evr: 3.2.6-2.el9_8
+    sourcerpm: mariadb-connector-c-3.2.6-2.el9_8.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/os/Packages/n/net-snmp-agent-libs-5.9.1-21.el9.ppc64le.rpm
     repoid: rhel-9-for-ppc64le-appstream-rpms
     size: 743831
@@ -3337,12 +3337,12 @@ arches:
     checksum: sha256:96638cf52e3c4060e6a44796f620f81c4724b98128e3569fbf8f87f508ae9089
     name: keepalived
     evr: 2.2.8-6.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/source/SRPMS/Packages/m/mariadb-connector-c-3.2.6-1.el9_0.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/source/SRPMS/Packages/m/mariadb-connector-c-3.2.6-2.el9_8.src.rpm
     repoid: rhel-9-for-ppc64le-appstream-source-rpms
-    size: 1011074
-    checksum: sha256:a2cf7fda38167d02ed521facf74439311cb4d1c43f9c385445eb34e748e8fdc7
+    size: 1014597
+    checksum: sha256:12b12bc18dc760c9b8fc4295397879d6bceb02bed784bcb7b3a2a5d8b3651d1d
     name: mariadb-connector-c
-    evr: 3.2.6-1.el9_0
+    evr: 3.2.6-2.el9_8
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/ppc64le/appstream/source/SRPMS/Packages/n/net-snmp-5.9.1-21.el9.src.rpm
     repoid: rhel-9-for-ppc64le-appstream-source-rpms
     size: 6806877
@@ -4122,20 +4122,20 @@ arches:
     name: keepalived
     evr: 2.2.8-6.el9
     sourcerpm: keepalived-2.2.8-6.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/os/Packages/m/mariadb-connector-c-3.2.6-1.el9_0.s390x.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/os/Packages/m/mariadb-connector-c-3.2.6-2.el9_8.s390x.rpm
     repoid: rhel-9-for-s390x-appstream-rpms
-    size: 209993
-    checksum: sha256:eee0d5a45065e7f9d69d14811c7fe6ff809a6d3f252d7b7f2b5d6cbee8fd3192
+    size: 209498
+    checksum: sha256:cffd261793f728db41258e1a6d603914df40e97a879865b6b2babc5c1117f88c
     name: mariadb-connector-c
-    evr: 3.2.6-1.el9_0
-    sourcerpm: mariadb-connector-c-3.2.6-1.el9_0.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/os/Packages/m/mariadb-connector-c-config-3.2.6-1.el9_0.noarch.rpm
+    evr: 3.2.6-2.el9_8
+    sourcerpm: mariadb-connector-c-3.2.6-2.el9_8.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/os/Packages/m/mariadb-connector-c-config-3.2.6-2.el9_8.noarch.rpm
     repoid: rhel-9-for-s390x-appstream-rpms
-    size: 11742
-    checksum: sha256:a8b3b1dc7d7dd20090f9641f5cf2fb25d580467a38b5c27eb4951175285e6e57
+    size: 14225
+    checksum: sha256:7aa2778a21a07580d851ef507dcc2eb097471f35be385e37e3346e60af18951e
     name: mariadb-connector-c-config
-    evr: 3.2.6-1.el9_0
-    sourcerpm: mariadb-connector-c-3.2.6-1.el9_0.src.rpm
+    evr: 3.2.6-2.el9_8
+    sourcerpm: mariadb-connector-c-3.2.6-2.el9_8.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/os/Packages/n/net-snmp-agent-libs-5.9.1-21.el9.s390x.rpm
     repoid: rhel-9-for-s390x-appstream-rpms
     size: 688718
@@ -5382,12 +5382,12 @@ arches:
     checksum: sha256:96638cf52e3c4060e6a44796f620f81c4724b98128e3569fbf8f87f508ae9089
     name: keepalived
     evr: 2.2.8-6.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/source/SRPMS/Packages/m/mariadb-connector-c-3.2.6-1.el9_0.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/source/SRPMS/Packages/m/mariadb-connector-c-3.2.6-2.el9_8.src.rpm
     repoid: rhel-9-for-s390x-appstream-source-rpms
-    size: 1011074
-    checksum: sha256:a2cf7fda38167d02ed521facf74439311cb4d1c43f9c385445eb34e748e8fdc7
+    size: 1014597
+    checksum: sha256:12b12bc18dc760c9b8fc4295397879d6bceb02bed784bcb7b3a2a5d8b3651d1d
     name: mariadb-connector-c
-    evr: 3.2.6-1.el9_0
+    evr: 3.2.6-2.el9_8
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/s390x/appstream/source/SRPMS/Packages/n/net-snmp-5.9.1-21.el9.src.rpm
     repoid: rhel-9-for-s390x-appstream-source-rpms
     size: 6806877
@@ -6168,20 +6168,20 @@ arches:
     name: lm_sensors-libs
     evr: 3.6.0-10.el9
     sourcerpm: lm_sensors-3.6.0-10.el9.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/m/mariadb-connector-c-3.2.6-1.el9_0.x86_64.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/m/mariadb-connector-c-3.2.6-2.el9_8.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 208037
-    checksum: sha256:5ac0d03b34c12a6d95c4ef2a9345a7a41599561f8cb7633b6a564b1c5d59f49a
+    size: 207794
+    checksum: sha256:91c2e28476d2a42eedb6f9a5213d0110db3d69ee1311b10c0ee4c37c68a12012
     name: mariadb-connector-c
-    evr: 3.2.6-1.el9_0
-    sourcerpm: mariadb-connector-c-3.2.6-1.el9_0.src.rpm
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/m/mariadb-connector-c-config-3.2.6-1.el9_0.noarch.rpm
+    evr: 3.2.6-2.el9_8
+    sourcerpm: mariadb-connector-c-3.2.6-2.el9_8.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/m/mariadb-connector-c-config-3.2.6-2.el9_8.noarch.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 11742
-    checksum: sha256:a8b3b1dc7d7dd20090f9641f5cf2fb25d580467a38b5c27eb4951175285e6e57
+    size: 14225
+    checksum: sha256:7aa2778a21a07580d851ef507dcc2eb097471f35be385e37e3346e60af18951e
     name: mariadb-connector-c-config
-    evr: 3.2.6-1.el9_0
-    sourcerpm: mariadb-connector-c-3.2.6-1.el9_0.src.rpm
+    evr: 3.2.6-2.el9_8
+    sourcerpm: mariadb-connector-c-3.2.6-2.el9_8.src.rpm
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/n/net-snmp-agent-libs-5.9.1-21.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
     size: 716088
@@ -7434,12 +7434,12 @@ arches:
     checksum: sha256:d60c0df5ea8b2ba3100d08689d80c0f6015165f3529584c580622687956870d1
     name: lm_sensors
     evr: 3.6.0-10.el9
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/source/SRPMS/Packages/m/mariadb-connector-c-3.2.6-1.el9_0.src.rpm
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/source/SRPMS/Packages/m/mariadb-connector-c-3.2.6-2.el9_8.src.rpm
     repoid: rhel-9-for-x86_64-appstream-source-rpms
-    size: 1011074
-    checksum: sha256:a2cf7fda38167d02ed521facf74439311cb4d1c43f9c385445eb34e748e8fdc7
+    size: 1014597
+    checksum: sha256:12b12bc18dc760c9b8fc4295397879d6bceb02bed784bcb7b3a2a5d8b3651d1d
     name: mariadb-connector-c
-    evr: 3.2.6-1.el9_0
+    evr: 3.2.6-2.el9_8
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel9/9/x86_64/appstream/source/SRPMS/Packages/n/net-snmp-5.9.1-21.el9.src.rpm
     repoid: rhel-9-for-x86_64-appstream-source-rpms
     size: 6806877
