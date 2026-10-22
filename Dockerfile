@@ -1,4 +1,4 @@
-FROM  registry.redhat.io/ubi9/ubi-minimal-pqc:latest
+FROM registry.redhat.io/ubi9/ubi-minimal-pqc:latest
 
 # Update the image to get the latest CVE updates
 RUN microdnf update -y \
