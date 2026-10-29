@@ -1,6 +1,7 @@
 contentOrigin:
   repofiles:
     - ./rpms.repo
+    - ./ubi.repo
 packages:
   - bash
   - curl
