@@ -2451,10 +2451,10 @@ arches:
     name: zstd
     evr: 1.4.4-1.el8
   module_metadata:
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/ppc64le/appstream/os/repodata/a3c295bedaf6d33fcf8a0fe5160aba7aeeb121f0ba5fcbaf8cfef64bb2ff4ad2-modules.yaml.gz
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/ppc64le/appstream/os/repodata/2d57fffeb6e771d8ff3e63780e4c8100ea3bcd0c1af82e0896a48ee4e4612d54-modules.yaml.gz
     repoid: rhel-8-for-ppc64le-appstream-rpms
-    size: 857633
-    checksum: sha256:a3c295bedaf6d33fcf8a0fe5160aba7aeeb121f0ba5fcbaf8cfef64bb2ff4ad2
+    size: 857979
+    checksum: sha256:2d57fffeb6e771d8ff3e63780e4c8100ea3bcd0c1af82e0896a48ee4e4612d54
 - arch: s390x
   packages:
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/s390x/appstream/os/Packages/k/keepalived-2.1.5-11.el8_10.s390x.rpm
@@ -4725,10 +4725,10 @@ arches:
     name: zstd
     evr: 1.4.4-1.el8
   module_metadata:
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/s390x/appstream/os/repodata/2308934534396d2dad5eb8291aa709b799c639289e38c7ae4742ea28cd1423be-modules.yaml.gz
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/s390x/appstream/os/repodata/19371cd98ed8e84b410c21ca79de1def65f71d2726a664302e8e9e0f69551ac3-modules.yaml.gz
     repoid: rhel-8-for-s390x-appstream-rpms
-    size: 860197
-    checksum: sha256:2308934534396d2dad5eb8291aa709b799c639289e38c7ae4742ea28cd1423be
+    size: 860514
+    checksum: sha256:19371cd98ed8e84b410c21ca79de1def65f71d2726a664302e8e9e0f69551ac3
 - arch: x86_64
   packages:
   - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/k/keepalived-2.1.5-11.el8_10.x86_64.rpm
@@ -7178,7 +7178,7 @@ arches:
     name: zstd
     evr: 1.4.4-1.el8
   module_metadata:
-  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/893e3ef3d2b1bb11c8b17c477bb430f9c19cca7a17354e483bbe53f7d7e76237-modules.yaml.gz
+  - url: https://rhsm-pulp.corp.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/0d92c276b55d7734bcca3cadf7011293f89d998eca5ae21b98bfcaa1c3b81bbc-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-rpms
-    size: 885825
-    checksum: sha256:893e3ef3d2b1bb11c8b17c477bb430f9c19cca7a17354e483bbe53f7d7e76237
+    size: 886139
+    checksum: sha256:0d92c276b55d7734bcca3cadf7011293f89d998eca5ae21b98bfcaa1c3b81bbc
