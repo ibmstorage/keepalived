@@ -1,4 +1,3 @@
-yaml
 contentOrigin:
   repofiles:
     - ./rpms.repo
