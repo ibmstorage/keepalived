@@ -1,12 +1,17 @@
-packages:
-  - bash
-  - curl
-  - iproute
-  - keepalived-2.1.5
+contentOrigin:
+  repofiles:
+    - ./rpms.repo
+context:
+  bare: true
+
 arches:
   - x86_64
   - aarch64
   - ppc64le
   - s390x
-context:
-  containerfile: Dockerfile
+
+packages:
+  - bash
+  - curl-minimal
+  - iproute
+  - keepalived-2.2.8
