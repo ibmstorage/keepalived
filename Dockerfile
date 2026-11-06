@@ -27,3 +27,6 @@ LABEL io.openshift.tags="rhceph ceph keepalived"
 # Konflux specific labels
 LABEL io.k8s.description="keepalived-container"
 LABEL cpe=cpe:/a:redhat:ceph_storage:5.3::el8
+
+# Z-stream indicator
+LABEL Z-VERSION="5.3z9"
